@@ -1,0 +1,102 @@
+.bdyClass {
+    background-color: #e5e5e5;
+}
+.upBar {
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 10px #00000048);
+    background-color: #ffffff;
+    align-items: center;
+    padding-right: 10px;
+}
+.logoUpBar {
+    padding: 10px 17px 17px 17px;
+    filter: drop-shadow(0px 4px 20px #00000048);
+    background-color: #ffffff;
+}
+.wellcomeText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #017849;
+}
+.userName {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #017849;
+}
+.butoonBack{
+    filter: drop-shadow(4px 10px 10px #00000048);
+    background-color: #ffffff;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 30px 0 0 30px;
+    margin-left: 40px;
+    margin-top: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+.iconButoonBack{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+.titleSessionCard{
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #4F4F4F;
+    padding: 20px 0;
+}
+.sessionCard{
+    border-radius: 16px;
+    padding: 17px;
+    background-color: #ffffff;
+    width: 80%;
+}
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.titleSession{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #000000;
+}
+.sessionDate{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #616161;
+}
+.sessionText{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #424242;
+    padding: 20px 0;
+}
+.sessionDetail{
+    display: flex;
+}
+.contentSessionDetail{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 60px 15px 0;
+}
+.titleContentSessionDetail{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #757575;
+}
+.sessionDetailContent{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #000000;
+}

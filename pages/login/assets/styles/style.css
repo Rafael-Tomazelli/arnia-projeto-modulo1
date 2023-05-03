@@ -1,0 +1,96 @@
+body {
+  background: #e5e5e5 url("../images/logoWexe.png") no-repeat left top fixed;
+  background-size: 30%;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.login-content {
+  display: flex;
+  align-items: center;
+  background-color: #00995d;
+  padding: 3% 6%;
+  flex-direction: column;
+  width: 40%;
+  filter: drop-shadow(2px 2px 12px rgba(0, 0, 0, 0.2));
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10%;
+}
+.wellcomeTex {
+  text-align: center;
+  padding: 20px 0;
+  color: #00995d;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.bemVindo {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.cadastar {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.formLogin {
+  width: 100%;
+}
+.form-label {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  margin: 0 !important;
+  font-size: 0.875rem; /* Usado medida 'rem' para para deixar a pagina responsiva */
+  font-weight: 400;
+}
+.formContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.form-control {
+  width: 100% !important;
+  padding: 12px !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem !important;
+  font-weight: 400;
+  color: #828282 !important;
+  border: 1px solid #BDBDBD !important;
+}
+.asterisco{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #EB5757;
+}
+.requisito{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #6F6F6E;
+}
+.btn {
+  padding: 3% 10% !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+.iconButton{
+    margin-left: 10px;
+}
+.linkCadastro{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  text-decoration: none;
+
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wexer - Cadastro</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script src="assets/js/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-content rounded-4" id="boxUserName">
+        <div class="logo">
+          <img width="100%" src="assets/images/Logo.png" alt="Logo wexer" />
+        </div>
+        <div class="wellcomeTex">
+          <span class="bemVindo">Seja bem-vindo(a)!</span>
+          <span class="cadastar">Preencha os campos para se cadastrar</span>
+        </div>
+        <div class="formContent">
+          <form
+            id="formRegisterName"
+            class="formLogin"
+          >
+            <div class="mb-3">
+              <label for="InputSaveName" class="form-label" >Nome</label>
+              <input type="text" class="form-control" id="InputSaveName" required/>
+            </div>
+            <div class="mb-3">
+              <label for="InputSaveEmail" class="form-label">E-mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="InputSaveEmail"
+                required
+              />
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end pt-4">
+              <button type="submit" class="btn btn-success">
+                Prosseguir
+                <img
+                  class="iconButton"
+                  src="assets/images/arrow-right.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="login-content rounded-4" id="boxUserPassword">
+        <div class="logo">
+          <img width="100%" src="assets/images/Logo.png" alt="Logo wexer" />
+        </div>
+        <div class="wellcomeTex">
+          <span class="bemVindo">Seja bem-vindo(a)!</span>
+          <span class="cadastar">Escolha uma senha</span>
+        </div>
+        <div class="formContent">
+          <form class="formLogin" id="formRegisterPassword">
+            <div class="mb-3">
+              <label for="exampleInputpassword1" class="form-label"
+                >Senha</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputpassword1"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputpassword2" class="form-label"
+                >Confirmar senha</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputpassword2"
+                required
+              />
+            </div>
+            <div>
+              <div>
+                <span class="asterisco">*</span
+                ><span class="requisito">Precisa de no mínimo 8 digitos.</span>
+              </div>
+              <div>
+                <span class="asterisco">*</span
+                ><span class="requisito"
+                  >Precisa conter um caractere especial */+.</span
+                >
+              </div>
+              <div>
+                <span class="asterisco">*</span
+                ><span class="requisito"
+                  >Precisa conter uma letra MAIÚSCULA.</span
+                >
+              </div>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end pt-4">
+              <button type="submit" class="btn btn-success">
+                Prosseguir
+                <img
+                  class="iconButton"
+                  src="assets/images/arrow-right.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
